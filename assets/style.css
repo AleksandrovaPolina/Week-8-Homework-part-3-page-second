@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+@font-face {
+  font-family: "Intro";
+  src: url("./Intro/IntroDemo-BlackCAPS.otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  background-color: #5222D0;
+  color: white;
+}
+
+.bin {
+  width: 115px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #5222D0;
+  color: white;
+  border: none;
+  margin-right: 74px;
+}
+
+.header__logo {
+  margin-left: 76px;
+}
+.header .header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__title {
+  font-family: Intro;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-left: 126px;
+}
+.main .title-second-page {
+  margin-top: 89px;
+  margin-bottom: 14px;
+}
+.main .main__top-level {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.main .main__bottom-level {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.main .card {
+  min-width: 360px;
+}
+.main .card-first {
+  border: 1px solid #BB2247;
+  padding: 0 40px 25px 35px;
+}
+.main .card-second-page {
+  width: 100%;
+  padding-top: 26px;
+}
+.main .card-title {
+  font-family: Intro;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.main .card-text {
+  font-family: Roboto Slab;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+}
+.main .first-card-bottom-level {
+  border: 1px solid #BB2247;
+  padding: 25px 26px 28px 45px;
+}
+.main .main__rectangle {
+  background-color: #EC615B;
+  color: white;
+  width: 365px;
+  height: 233px;
+}
+.main .main__title-rectangle {
+  margin-left: 18px;
+  margin-top: 25px;
+  margin-bottom: 6px;
+}
+.main .main__input-rectangle {
+  width: 323px;
+  height: 50px;
+  margin-left: 20px;
+  margin-bottom: 23px;
+}
+.main input::-moz-placeholder {
+  color: black;
+  font-family: Roboto Slab;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+  padding-left: 14px;
+}
+.main input::placeholder {
+  color: black;
+  font-family: Roboto Slab;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+  padding-left: 14px;
+}
+.main .main__bin {
+  font-family: Intro;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 18px;
+}
+.main .nav__link {
+  font-family: Roboto Slab;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+  text-decoration: none;
+  color: black;
+  margin-right: 34px;
+}
+.main .main__nav {
+  margin-top: 86px;
+  margin-left: 126px;
+  margin-bottom: 80px;
+}
+.main .nav__link:last-child {
+  margin-right: 0px;
+}/*# sourceMappingURL=style.css.map */
